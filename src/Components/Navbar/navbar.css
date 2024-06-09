@@ -1,0 +1,39 @@
+.navbar {
+    background-color: #3498db;
+    padding: 0px 10px;
+    height: 8vh;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding-left: 5%;
+  }
+  
+  li {
+    padding: 10px;
+    padding-left: 5%;
+    /* border: 2px solid red; */
+    font-weight: 500;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center; /* Align text and icon vertically */
+    font-size: 1.1rem;
+  }
+  
+ .active {
+    color: #ffcd00;
+    background-color: f77f00; /* Change to your desired active link color */
+  }
+  
+  /* Add some styling for the icons */
+  .nav-link svg {
+    margin-right: 8px; /* Adjust the margin based on your preference */
+  }
+  

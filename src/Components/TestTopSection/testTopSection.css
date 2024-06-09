@@ -1,0 +1,18 @@
+.top-section{
+    display:flex;
+   justify-content:space-between;
+   align-items:center;
+   background-color: #2A9D8F;
+   color: white;
+   height: 35px;
+}
+.go-back-button{
+    padding: 5px;
+    text-align:end;
+    text-decoration: none;
+    color: #177e89;
+    background-color: white;
+    border-radius: 3px;
+    font-size: .9rem;
+    border: 1px solid black;
+}

@@ -1,0 +1,55 @@
+.table-side-section{
+    width: 20%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-left:1px solid  #124559;
+}
+
+.side-button-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.side-button-section button,.table-button-fields button{
+  width: 130px;
+  height: 35px;
+  font-size: .9rem;
+  margin:3px;
+  box-shadow: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #005f73;
+}
+
+.side-button-section button:hover,.table-button-fields button:hover{
+  transform: scale(1.05);
+  border: 1px solid #005f73;
+  background-color: #b8e0d2;
+}
+
+.side-button-section button:active,.table-button-fields button:active{
+  transform: scale(.9);
+}
+
+.side-radio-section{
+  background-color: #dcebfa;
+  border: 0.5px solid #124559;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.side-radio-field{
+  height: 35px;
+  width: 130px;
+  display: flex;
+  align-items: center;
+}
+
+.side-radio-field label{
+   margin-left: 5px;
+}

@@ -1,0 +1,50 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/* Test Table Css */
+
+.test-table-container{
+  display: flex;
+  width: 100vw;
+  min-height: 50vh;
+}
+
+.test-table-container table{
+     width: 80%;
+     border-collapse: collapse;
+     background-color: white;
+     border: 1px solid black;
+}
+
+.test-table-container table caption{
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 5px;
+}
+
+.test-table-container table th{
+  background-color:#124559;
+  color: white;
+  font-weight: 500;
+  height: 40px;
+  padding: 5px;
+}
+
+.test-table-container table td{
+  height: 30px;
+  font-size: .9rem; 
+  border-bottom: 1px solid grey;
+  background-color: white;
+  text-align: center;
+}
+
+.test-table-container table tbody tr strong{
+  text-align: start;
+}

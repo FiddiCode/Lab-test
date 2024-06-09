@@ -1,0 +1,7 @@
+.test-table{
+    width: 80%;
+}
+.test-table table{
+    width: 100%;
+    border: 2px solid red;
+}

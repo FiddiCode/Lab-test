@@ -1,0 +1,51 @@
+.top-section{
+    display:flex;
+   justify-content:space-between;
+   align-items:center;
+   background-color: #177e89;
+   color: white;
+   height: 35px;
+}
+.go-back-button{
+    padding: 5px;
+    text-align:end;
+    text-decoration: none;
+    color: #177e89;
+    background-color: white;
+    border-radius: 3px;
+    font-size: .9rem;
+    border: 1px solid black;
+}
+
+.cbp-table{
+    display: flex;
+}
+
+
+.cbp-table table{
+     width: 80%;
+     border-collapse: collapse;
+     background-color: white;
+}
+
+.cbp-table table caption{
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.cbp-table table th{
+    background-color:#2a9d8f;
+    height: 35px;
+}
+
+.cbp-table table td{
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    height: 30px;
+    font-size: .9rem;
+}
+
+.cbp-table table tbody tr strong{
+    text-align: start;
+}

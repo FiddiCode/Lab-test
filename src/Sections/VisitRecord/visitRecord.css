@@ -1,0 +1,42 @@
+.visit-record{
+    width: 100%; 
+}
+
+.visit-record table{
+    width: 100%;
+    height: 40vh;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.visit-record table thead tr th{
+    height: 40px;
+    background-color: #0f4c5c;
+    color: white;
+    font-weight: 400;
+}
+
+.visit-record table tbody tr td{
+    background-color: #aec3b0;
+    color: #01161e;
+}
+
+.visit-record table tbody tr td button{
+    margin: auto;
+    text-decoration: none;
+    color: #0f4c5c;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: .8rem;
+    background-color: transparent;
+    box-shadow: none;
+    border: none; 
+}
+
+.visit-record table tbody tr td button img{
+       width: 30px;
+       height: 30px;
+}

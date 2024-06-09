@@ -1,0 +1,17 @@
+.reports{
+    height: 100vh;
+    width: 100vw;
+    background-color:#caf0f8;
+}
+.reports>h2{
+    padding: 20px;
+    padding-left: 50px;
+    font-size: 2rem;
+    font-weight: 500;
+
+ } 
+
+.departments{
+    display: flex;
+    justify-content: space-evenly;
+}

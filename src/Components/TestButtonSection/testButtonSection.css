@@ -1,0 +1,12 @@
+.table-button-section{
+    border:0.5px solid  #124559;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .table-button-fields button{
+    width: 100px;
+    font-size: .8rem;
+    padding: 5px;
+  }

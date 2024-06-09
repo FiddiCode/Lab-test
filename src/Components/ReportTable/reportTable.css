@@ -1,0 +1,89 @@
+.report-table{
+    background-color:#caf0f8;
+    height: 80vh;
+    overflow: hidden;
+}
+
+ .report-table h2{
+    /* padding: 20px; */
+    margin-left: 80px;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.search-box{
+    height: 40px;
+    margin: 15px;
+    margin-left: 60px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 1px 1px 5px grey;
+
+}
+
+.search-box input{
+   height:35px;
+   width: 85%;
+   border: none;
+   outline: none;
+}
+
+.report-table table{
+    width: 95%;
+    height: 50vh;
+    margin: auto;
+    padding-bottom: 10px;
+    border: 1px solid lightgrey;
+}
+
+.report-table table thead{
+    background-color:#f6b93b ;
+    height: 30px;
+}
+
+.report-table tbody tr td{
+    border-bottom: 1px solid grey;
+    text-align: center;
+    background-color: white;
+}
+
+ .report-button{
+    margin: auto;
+    text-decoration: none;
+    color: #0f4c5c;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: .8rem;
+    background-color: white;
+    box-shadow: none;
+    border: none;
+}
+
+.report-button:hover{
+    border: none;
+    /* height: auto;
+    background-color: white; */
+}
+
+ .report-button img{
+    width: 30px;
+    height: 30px;
+}
+
+.pagination{
+    position:absolute;
+    top: 83%;
+    left: 40%;
+    margin: 10px;
+}
+
+.pagination button{
+    height: 30px;
+    padding: 0px  10px;
+    border-radius: 5px;
+}
