@@ -1,6 +1,6 @@
 import React from 'react'
 import './login.css'
-import logo from '../../assets/Profile.png'
+import logo from '../../assets/profile.png'
 import email from '../../assets/email.svg'
 import password from '../../assets/password.svg'
 import arrow from '../../assets/double-arrow.png'
