@@ -1,7 +1,7 @@
 import React from 'react'
 import './card.css'
 import img from '../../assets/Medical.jpg'
-import {useNavigate} from 'react-router-dom'
+import {useNavigate } from 'react-router-dom'
 
 const Card = ({title='Demo',imgSrc='./images/demo.png',redirect='/home'}) => {
   const navigate=useNavigate();
