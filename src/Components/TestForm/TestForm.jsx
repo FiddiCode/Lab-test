@@ -8,7 +8,7 @@ const TestForm = () => {
   return (
     <>
      <div className='test-form'>
-            <h2 className='heading'>Patient Information</h2>
+            <h2  className='heading'>Patient Information</h2>
               <form>
                  <div className="form-field">
                      <label htmlFor=''>Patient Name</label>
