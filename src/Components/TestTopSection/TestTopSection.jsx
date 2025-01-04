@@ -7,7 +7,7 @@ const TestTopSection = () => {
     <div className="top-section">
         <div style={{display:'flex',justifyContent:'space-around',alignItems:'center',width:'500px'}}>
               <b>Lab Report Generation</b>
-              <b>User:<strong>Matrix</strong></b>
+              <b>User:<strong>Fardeen</strong></b>
         </div>
         <div>
             <Link to='/pathology' className='go-back-button'>Go Back</Link>

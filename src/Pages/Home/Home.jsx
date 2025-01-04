@@ -3,8 +3,6 @@ import './home.css'
 import Navbar from '../../Components/Navbar/Navbar'
 import Header from '../../Components/Header/Header'
 import Card from '../../Components/Card/Card'
-import { redirect } from 'react-router-dom'
-
 
 const Home = () => {
   return (
@@ -12,7 +10,7 @@ const Home = () => {
        <Header/>
        <Navbar/>
        <div className='home'>
-            <h1>Welcome Matrix !</h1>
+            <h1>Welcome Fardeen !</h1>
           <h3>Please click the section icon you would like to use</h3>
 
         <div className='cards'>

@@ -15,7 +15,7 @@ const Header = () => {
     <div className='header'>
       <div>
       <img src={logo} alt='logo'/>
-      <h1>Matrix</h1>
+      <h1>FARDEEN QURESHI</h1>
       </div>
       <div>
       <button onClick={handleSignOut}>SignOut</button>
